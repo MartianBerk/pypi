@@ -1,0 +1,11 @@
+[Unit]
+Description=Run PyPI Server.
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/martin/pypi/pypi
+ExecStart=/bin/bash /home/martin/pypi/pypi/start.sh
+
+[Install]
+WantedBy=multi-user.target

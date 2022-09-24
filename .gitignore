@@ -1,0 +1,12 @@
+# Macbook
+.DS_Store
+
+# pycache
+/**/__pycache__/
+/**/*.pyc
+
+# virtualenv
+.venv
+
+# HTACCESS
+.htaccess
