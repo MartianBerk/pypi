@@ -15,4 +15,4 @@ RUN pip install -r requirements.txt
 EXPOSE 8083
 
 # Run app.py when the container launches
-CMD  ["pypi-server", "packages/", "--port", "8083", "-P", ".htaccess"]
+CMD  ["pypi-server", "packages/", "--port", "8083", "-P", ".htaccess", "--overwrite"]
